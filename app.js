@@ -40,6 +40,10 @@ async function main() {
   await mongoose.connect(dburl);
 };
 
+
+app.get("/", (req,res) =>{
+    res.redirect("/listings")
+});
 const store = MongoStore.create({
     mongoUrl: dburl,
     crypto:{
