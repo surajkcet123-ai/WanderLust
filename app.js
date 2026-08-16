@@ -23,7 +23,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const User = require("./models/user.js");
 
 
-const dburl = process.env.ATLASDB_URL;
+const dbUrl = process.env.ATLASDB_URL;
 
 
 mongoose.set("strictQuery", true);
@@ -41,11 +41,11 @@ main()
 .catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect(dburl);
+  await mongoose.connect(dbUrl);
 };
 
 const store = MongoStore.create({
-    mongoUrl: dburl,
+    mongoUrl: dbUrl,
     crypto:{
         secret:process.env.SECRET,
     },
