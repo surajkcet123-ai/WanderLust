@@ -111,7 +111,8 @@ price: 2000,
     title: "Safari Lodge in the Serengeti",
     description:
       "Experience the thrill of the wild in a comfortable safari lodge. Witness the Great Migration up close.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG1vdW50YWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 4000,
@@ -146,7 +147,8 @@ price: 2000,
     title: "Charming Cottage in the Cotswolds",
     description:
       "Escape to the picturesque Cotswolds in this quaint and charming cottage with a thatched roof.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1602088113235-229c19758e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2glMjB2YWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 1200,
@@ -157,7 +159,8 @@ price: 2000,
     title: "Historic Brownstone in Boston",
     description:
       "Step back in time in this elegant historic brownstone located in the heart of Boston.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1533619239233-6280475a633a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNreSUyMHZhY2F0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 2200,
@@ -168,7 +171,8 @@ price: 2000,
     title: "Beachfront Bungalow in Bali",
     description:
       "Relax on the sandy shores of Bali in this beautiful beachfront bungalow with a private pool.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1602391833977-358a52198938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 1800,
@@ -179,7 +183,8 @@ price: 2000,
     title: "Mountain View Cabin in Banff",
     description:
       "Enjoy breathtaking mountain views from this cozy cabin in the Canadian Rockies.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 1500,
@@ -190,7 +195,8 @@ price: 2000,
     title: "Art Deco Apartment in Miami",
     description:
       "Step into the glamour of the 1920s in this stylish Art Deco apartment in South Beach.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://plus.unsplash.com/premium_photo-1670963964797-942df1804579?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 1600,
@@ -201,7 +207,8 @@ price: 2000,
     title: "Tropical Villa in Phuket",
     description:
       "Escape to a tropical paradise in this luxurious villa with a private infinity pool in Phuket.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1470165301023-58dab8118cc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 3000,
@@ -212,7 +219,8 @@ price: 2000,
     title: "Historic Castle in Scotland",
     description:
       "Live like royalty in this historic castle in the Scottish Highlands. Explore the rugged beauty of the area.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1585543805890-6051f7829f98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYWNoJTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 4000,
@@ -223,7 +231,8 @@ price: 2000,
     title: "Desert Oasis in Dubai",
     description:
       "Experience luxury in the middle of the desert in this opulent oasis in Dubai with a private pool.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 5000,
@@ -234,7 +243,8 @@ price: 2000,
     title: "Rustic Log Cabin in Montana",
     description:
       "Unplug and unwind in this cozy log cabin surrounded by the natural beauty of Montana.",
-    image: {filename:"listingIamge",
+    image: {
+      filename:"listingIamge",
       url:"https://images.unsplash.com/photo-1586375300773-8384e3e4916f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 1100,
@@ -257,7 +267,8 @@ price: 2000,
     title: "Eco-Friendly Treehouse Retreat",
     description:
       "Stay in an eco-friendly treehouse nestled in the forest. It's the perfect escape for nature lovers.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2t5JTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 750,
@@ -268,7 +279,8 @@ price: 2000,
     title: "Historic Cottage in Charleston",
     description:
       "Experience the charm of historic Charleston in this beautifully restored cottage with a private garden.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 1600,
@@ -279,7 +291,8 @@ price: 2000,
     title: "Modern Apartment in Tokyo",
     description:
       "Explore the vibrant city of Tokyo from this modern and centrally located apartment.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRva3lvfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     price: 2000,
@@ -290,7 +303,8 @@ price: 2000,
     title: "Lakefront Cabin in New Hampshire",
     description:
       "Spend your days by the lake in this cozy cabin in the scenic White Mountains of New Hampshire.",
-    image: {filename:"listingIamge",
+    image: {
+      filename:"listingIamge",
       url:"https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 1200,
@@ -301,7 +315,8 @@ price: 2000,
     title: "Luxury Villa in the Maldives",
     description:
       "Indulge in luxury in this overwater villa in the Maldives with stunning views of the Indian Ocean.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 6000,
@@ -323,7 +338,8 @@ price: 2000,
     title: "Secluded Beach House in Costa Rica",
     description:
       "Escape to a secluded beach house on the Pacific coast of Costa Rica. Surf, relax, and unwind.",
-    image: {filename:"listingImage",
+    image: {
+      filename:"listingImage",
       url:"https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     price: 1800,

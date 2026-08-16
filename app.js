@@ -1,5 +1,7 @@
-
+if(process.env.NODE_ENV != "production"){
 require('dotenv').config()
+}
+
 
 
 
@@ -19,9 +21,12 @@ const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const User = require("./models/user.js");
-const dburl = process.env.ATLASDB_URL;
-mongoose.set("strictQuery", true);
 
+
+const dburl = 'mongodb://127.0.0.1:27017/wanderlust';
+
+
+mongoose.set("strictQuery", true);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({extended: true}));

@@ -18,8 +18,11 @@ router.route("/")
     upload.single("listing[image]"),
     validateListing,
     wrapAsync(listingController.createListing));
+    
     // New Route
-router.get("/new", isLoggedIn,listingController.renderNewForm);
+router.get("/new", 
+    isLoggedIn,
+    listingController.renderNewForm);
 
 router.route("/:id")
 .get(wrapAsync(listingController.showListing))
@@ -32,7 +35,9 @@ router.route("/:id")
 .delete(isLoggedIn, isOwner,listingController.deleteListing);
 
 // Edit Route
-router.get("/:id/edit", isLoggedIn,isOwner,listingController.editListing);
+router.get("/:id/edit", 
+    isLoggedIn,isOwner,
+    listingController.editListing);
 
 
 module.exports = router;
