@@ -23,7 +23,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const User = require("./models/user.js");
 
 
-const dburl = 'mongodb://127.0.0.1:27017/wanderlust';
+const dburl = process.env.ATLASDB_URL;
 
 
 mongoose.set("strictQuery", true);
